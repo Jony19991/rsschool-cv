@@ -1,87 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" >
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cv</title>
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <div class="blok">
       <div class="blok-rev">
         <aside class="blok-aside">
-          <img class="avatar" src="./img/photo_2022-12-11_09-45-56.jpg" />
+          <img class="avatar" src="./img/photo_2022-12-11_09-45-56.jpg" alt="avatar"/>
           <div>
-            <p class="name">EVGENI RUBANOV</p>
-            <div class="name-prof">STUDENT</div>
+            <h1 class="name">EVGENI RUBANOV</h1>
+            <h2 class="name-prof">STUDENT</h2>
           </div>
-          <br><br><br>
+          <br /><br /><br />
           <div>
             <p class="name-prof">CONTACT</p>
             <div class="blok-contact">
-                <img class="icon" src="./img/icons8-земной-шар-50.png" />
-                <div class="blok-contact1">Web</div>
-                <div class="blok-contact2">jonytrofimov@yandex.ru</div>
+              <img class="icon" src="./img/icons8-земной-шар-50.png" alt="icon-world"/>
+              <div class="blok-contact1">Web</div>
+              <div class="blok-contact2">jonytrofimov@yandex.ru</div>
             </div>
             <div class="blok-contact">
-                <img class="icon" src="./img/icons8-google-карты-50.png" />
-                <div class="blok-contact1">Address</div>
-                <div class="blok-contact2">Mogilev</div>
+              <img class="icon" src="./img/icons8-google-карты-50.png" alt="icon-plant"/>
+              <div class="blok-contact1">Address</div>
+              <div class="blok-contact2">Mogilev</div>
             </div>
             <div class="blok-contact">
-                <img class="icon" src="./img/icons8-номер-pad-50.png" />
-                <div class="blok-contact1">Discord</div>
-                <div class="blok-contact2">Jony19991#8826</div>
+              <img class="icon" src="./img/icons8-номер-pad-50.png" alt="icon-phone"/>
+              <div class="blok-contact1">Discord</div>
+              <div class="blok-contact2">Jony19991#8826</div>
             </div>
           </div>
         </aside>
-        <main class="main">
+        <div class="header-main-footer">     
+          <header class="header">
+            <button class="button-header"><a class="button-header-text" href="#summary" >Summary</a></button>
+            <button class="button-header"><a class="button-header-text" href="#skills">Skills</a></button>
+            <button class="button-header"><a class="button-header-text" href="#code">Code</a></button>
+            <button class="button-header"><a class="button-header-text" href="#courses">Courses</a></button>
+            <button class="button-header"><a class="button-header-text" href="#education">Education</a></button>
+            <button class="button-header"><a class="button-header-text" href="#english">English</a></button>
+          </header>
+          <main class="main">
             <div>
-                <div class="main-glava">Brief information</div>
-                <div class="main-text">My profession is an energy engineer, recently I started to be interested in the web
-                    development. In October 2022, I completed front-end courses at an educational school
-                    "Mela Rossa". I expect that the educational platform Rolling Scopes will allow you to learn the front-end
-                    in more depth, as well as open prospects for possible employment.  
-                </div>
+              <div class="main-glava" id="summary">Summary</div>
+              <div class="main-text">
+                My profession is an energy engineer, recently I started to be
+                interested in the web development. In October 2022, I completed
+                front-end courses at an educational school "Mela Rossa". I
+                expect that the educational platform Rolling Scopes will allow
+                you to learn the front-end in more depth, as well as open
+                prospects for possible employment.
+              </div>
             </div>
-            <br>
+            <br />
             <div>
-                <div class="main-glava">Skills</div>
-                <ul class="main-text">
-                    <li>HTML, CSS</li>
-                    <li>Java Script</li>
-                    <li>Type Script</li>
-                    <li>React</li>
-                </ul>
-            </div>
-            <div>
-                <div class="main-glava">Code</div>
-                <div class="main-text"> function multiply (a, b) {return a * b}
-                </div>
+              <div class="main-glava" id="skills">Skills</div>
+              <ul class="main-text">
+                <li>HTML, CSS</li>
+                <li>Java Script</li>
+                <li>Type Script</li>
+                <li>React</li>
+              </ul>
             </div>
             <div>
-                <div class="main-glava">Work experience</div>
-                <div class="main-text">Student. Completed weather project on <a href="https://635c0331a8597310ea16c2c7--melarossaweather.netlify.app/">React.</a> 
-                </div>
+              <div class="main-glava" id="code">Code</div>
+              <div class="main-text">
+                function multiply (a, b) {return a * b}
+              </div>
             </div>
-            <br>
             <div>
-                <div class="main-glava">Education</div>
-                <div class="main-text">Courses "Mela Rossa"</div>
+              <div class="main-glava" id="courses">Courses</div>
+              <div class="main-text">
+                Student. Completed weather project on
+                <a href="https://635c0331a8597310ea16c2c7--melarossaweather.netlify.app/">React.</a>
+              </div>
             </div>
-            <br>
+            <br />
             <div>
-                <div class="main-glava">English</div>
-                <div class="main-text">First level</div>
+              <div class="main-glava" id="education">Education</div>
+              <div class="main-text">Courses "Mela Rossa"</div>
             </div>
-            <br>
-            <div class="">
-                <a href=" https://github.com/Jony19991">My GitHub</a>
-                <img class="roll-img" src="https://rs.school/images/rs_school_js.svg">
-                <a href="https://rs.school/js/">Rolling Scopes</a>
+            <br />
+            <div>
+              <div class="main-glava" id="english">English</div>
+              <div class="main-text">First level</div>
             </div>
-        </main>
+            <br />
+          </main>
+          <footer class="footer">
+              <a class="footer-text" href="https://github.com/Jony19991">My GitHub</a>
+              <img class="rs-img" src="https://rs.school/images/rs_school_js.svg" alt="rs.school"/>
+              <a class="footer-text" href="https://rs.school/js/">Rolling Scopes</a>
+          </footer>
+        </div> 
       </div>
     </div>
   </body>
